@@ -1,0 +1,271 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.05em;
+}
+
+header .logo {
+    display: flex;
+    justify-content: start;
+    width: 268px;
+    height: 33px;
+}
+
+header div .logo-text {
+    font-size: 36px;
+    margin: -4px 10px;
+    font-weight: 700;
+    color: #00b39b;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown a:hover {
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f5f5f5;
+    color: #2eb3a1;
+    text-decoration: none;
+
+}
+
+/* Other navbar styles */
+nav {
+    color: grey;
+    font-size: 18px;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav .logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: grey;
+    text-decoration: none;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+    margin-left: 20px;
+
+}
+
+body header nav ul li a {
+    color: grey;
+    text-decoration: none;
+}
+
+body header nav ul li a:hover {
+    color: #2eb3a1;
+    text-decoration: none;
+}
+
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Hero section styles */
+.hero {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+    background-image: url('./images/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 30px 0;
+    color: white;
+}
+
+.hero img {
+    height: 60px;
+    margin: auto;
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); */
+    /* box-shadow: 0px 2px 5px rgb(255, 255, 255); */
+    /* outline: 2px solid white; */
+    /* border: 2px solid white; */
+    /* stroke: 2px solid white; */
+    /* border-image: ; */
+    filter: saturate(300%) brightness(200%);
+}
+
+/* Services section styles */
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.services ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.services li {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.services p {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Team section styles */
+.team {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.member {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.member h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.member p {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Testimonials section styles */
+.testimonials {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial blockquote {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.testimonial cite {
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+}
+
+/* Blog section styles */
+.blog {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.blog h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.post {
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
